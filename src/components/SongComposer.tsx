@@ -52,15 +52,16 @@ ${wordsArray[0] || "Счастье"} найти так легко,
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-white to-indigo-100">
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2 font-montserrat">
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">
             🎵 Студия песенного творчества
           </h1>
           <p className="text-gray-600 text-lg">
-            Превратите ваши слова в музыкальные строки
+            Превратите ваши слова в музыкальные строки с расширенными
+            возможностями
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
           <div className="space-y-6">
             <WordInput
               words={words}
@@ -77,7 +78,8 @@ ${wordsArray[0] || "Счастье"} найти так легко,
         </div>
 
         <div className="text-center mt-8 text-gray-500 text-sm">
-          Создавайте, экспериментируйте и наслаждайтесь процессом творчества! 🎶
+          🎶 Создавайте, редактируйте, делитесь и наслаждайтесь процессом
+          творчества!
         </div>
       </div>
     </div>
